@@ -1,0 +1,112 @@
+.Navbar {
+  background-color: #1d1b1b;
+  color: white;
+  width: 20%;
+  height: 100%vh;
+  padding: 20px;
+}
+
+.Navbar #LOGO {
+  color: red;
+}
+
+.Navbar div.rapper {
+  background-color: #272626;
+  padding: 10px;
+}
+
+.Navbar div.rapper h1 {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Navbar div.rapper h1 .super {
+  font-size: 7.5px;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Navbar .Navbar-Links {
+  list-style-type: none;
+}
+
+.Navbar .Navbar-Links .cutter {
+  height: 2px;
+  width: 240px;
+}
+
+.Navbar .Navbar-Links .nav-link-item {
+  padding: 0.1px;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Navbar .Navbar-Links .nav-link-item a {
+  color: #535252;
+  color: white;
+  text-decoration: none;
+}
+
+.Navbar .Navbar-Links .nav-link-item:hover {
+  background: #333333;
+}
+
+.Navbar .social-icons {
+  padding: 10px;
+}
+
+.Navbar .social-icons i {
+  margin-right: 10px;
+}
+
+.Navbar .social-icons span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.Navbar .INFO:hover span {
+  color: #ee5252;
+}
+
+.Navbar footer {
+  font-size: 13px;
+  color: #666464;
+}
+
+.option {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  padding-left: 10px;
+}
+
+.option:hover {
+  background: #333333;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #181717;
+}
+
+div.search {
+  padding: 0px;
+  margin-top: 20px;
+  float: right;
+  margin-right: 65%;
+}
+
+div.search input[type="text"] {
+  width: 500%;
+  padding: 10px;
+  text-align: center;
+}
+
+div.search input[type="text"]:focus {
+  border: 2px solid blue;
+}
