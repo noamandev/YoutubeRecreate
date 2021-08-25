@@ -3,91 +3,277 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YoutubeClone</title>
-    <link rel="stylesheet" href="dist/css/style.css">
+    <meta name="veiwpost" content="width=device-width, initial-scale=1.0">
+    <title>YoutubeRecreate</title>
+    <link rel="stylesheet" href="dist/css/header.css">
+    <link rel="stylesheet" href="dist/css/category.css">
+    <link rel="stylesheet" href="dist/css/videos.css">
 </head>
 <body>
-    <div class="search">
-        <input type="text" placeholder="Search videos">
-    </div>
+
+    <!-- navbar of youtube -->
     <header>
-        <nav class="Navbar">
-            <div class="rapper">
-                <i id="LOGO" class="fab fa-youtube fa-2x"></i> <h1>Youtube<sub class="super">IN</sub></h1>
-            </div>
-            <ul class="Navbar-Links">
-                <li class="nav-link-item"><a href="index.html"><p>Home</p></a></li>
-                <li class="nav-link-item"><a href="#"><p>Explore</p></a></li>
-                <li class="nav-link-item"><a href="#"><p>Subscriptions</p></a></li>
-                <hr class="cutter">
-                <li class="nav-link-item"><a href="#"><p>Library</p></a></li>
-                <li class="nav-link-item"><a href="#"><p>History</p></a></li>
-                <li class="nav-link-item"><a href="#"><p>Your videos</p></a></li>
-                <li class="nav-link-item"><a href="#"><p>Liked videos</p></a></li>
-                <li class="nav-link-item"><a href="#"><p>Watch later</p></a></li>
-                <hr class="cutter">
-                <h4 style="color: rgb(202, 194, 194); font-family: Arial, Helvetica, sans-serif; font-size: 15px;">Subscriptions</h4>
-                <a href="#">
-                    <div class="social-icons">
-                        <div class="INFO">
-                            <i class="fab fa-github fa-2x"></i>
-                            <span>GitHub Channel</span>
-                        </div>
-                        <br>
-                        <br>
-                        <div class="INFO">
-                            <i class="fab fa-google fa-2x"></i>
-                            <span>Google Official</span>
-                        </div>
-                        <br>
-                        <br>
-                        <div class="INFO">
-                            <i class="fab fa-reddit fa-2x"></i>
-                            <span>Reddit Channel</span>
-                        </div>
-                        <br>
-                        <br>
-                        <div class="INFO">
-                            <i class="fab fa-trello fa-2x"></i>
-                            <span>Trello Channel</span>
-                        </div>
-                    </div>
-                  </div>
-                </a>
-            <hr class="cutter">
-            <div>
-                <h4 style="color: rgb(202, 194, 194); font-family: Arial, Helvetica, sans-serif; font-size: 15px;">MORE FROM YOUTUBE</h4>
-                <a href="#">
-                    <p class="option">Youtube Premium</p>
-                    <p class="option">Films</p>
-                    <p class="option">Gaming</p>
-                    <p class="option">Live</p>
-                    <p class="option">Fashion & beauty</p>
-                    <p class="option">Learning</p>
-                    <p class="option">Sport</p>
-                </a>
-            </div>
-            <hr class="cutter">
-            <a href="#">
-                <p class="option">Settings</p>
-                <p class="option">Report History</p>
-                <p class="option">Help</p>
-                <p class="option">Send Feedback</p>
-            </a>
-            <hr class="cutter">
-            <a href="#" style="color: rgb(109, 104, 104); font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; margin-left: 10px;"> About   Press  Copyright <br> Contact us  Creator  Advertise developers</a>
-            <a href="#" style="color: rgb(109, 104, 104); font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; margin-left: 10px;"> Terms  Privacy  Policy & Safety <br> How Youtube works <br> Test new features</a>
-            </ul>
+        <div class="logo">
+            <i id="bars" class="fas fa-bars"></i>
+            <img width="109px" height="24px" src="https://raw.githubusercontent.com/WebDevSimplified/YouTube-Design-Clone/master/logo.png" alt="Logo">
+        </div>
+        <form class="search">
+            <!-- search bar -->
+            <input id="search-input" type="search" placeholder="Search" aria-label="Search">
+            <!-- search button -->
+            <button type="submit" class="search-btn">
+                <i id="search-icon" class="fas fa-search"></i>
+            </button>
+        </form>
 
-            <footer>
-                &copy; CopyRight Google LLC 
-                *this is obviously not Copyrighted*
-                <p>This is a copy of youtube's sidebar. This was very inefficiently made and used floats instead of css flexbox or grid which would probobly be better. This website was made to look good on desktop so If your using phone, It may not look good.</p>
-            </footer>
-        </nav>
+
+        <div class="icons">
+            <!-- icons -->
+            <i class="fas fa-video"></i>
+            <i class="fas fa-th"></i>
+            <i class="far fa-bell"></i>
+            <!-- user icon -->
+            <i id="user-icon" class="fas fa-user"></i>
+        </div>
     </header>
+    <!-- category section -->
+    <main>
+        <section class="categories">
+            <div class="category">
+                All
+            </div>
+            <div class="category">
+                Sports
+            </div>
+            <div class="category">
+                Music
+            </div>
+            <div class="category">
+                JavaScript
+            </div>
+            <div class="category">
+                Anime
+            </div>
+            <div class="category">
+                Cooking
+            </div>
+            <div class="category">
+                Mountains
+            </div>
+            <div class="category">
+                Astronamy
+            </div>
+            <div class="category">
+                Math
+            </div>
+            <div class="category">
+                Psyhchology
+            </div>
+            <div class="category">
+                Science
+            </div>
+            <div class="category">
+                history
+            </div>
+            <div class="category">
+                Gaming
+            </div>
+            <div class="category">
+                Minerals
+            </div>
+            <div class="category">
+                Minecraft
+            </div>
+            <div class="category">
+                Manga
+            </div>
+            <div class="more-arrow">
+                >
+            </div>
+        </section>
+        <!-- <hr> sepearating the 2 sections -->
+        <hr>
+        <!-- video section -->
+        <section class="videos">
+            <div class="video">
+                <img class="thumbnail" src="Images/RealisticHouse.jpg" alt="Thumbnail">
+                <div class="info">
+                    <div>
+                        <img class="channel-icon" src="Images/Sunset.jpg" alt="Channel">
+                    </div>
+                    <div class="details">
+                      <p class="Title">Lorem ipsum, dolor sit amet consectetur.</p>
+                      <p class="channel">Channel</p>
+                      <div class="meta-data">
+                          <span class="veiws">12k views</span>
+                          <span>12 days ago</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <img class="thumbnail" src="Images/RealisticHouse.jpg" alt="Thumbnail">
+                <div class="info">
+                    <div>
+                        <img class="channel-icon" src="Images/Sunset.jpg" alt="Channel">
+                    </div>
+                    <div class="details">
+                      <p class="Title">Lorem ipsum, dolor sit amet consectetur.</p>
+                      <p class="channel">Channel</p>
+                      <div class="meta-data">
+                          <span class="veiws">12k views</span>
+                          <span>12 days ago</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <img class="thumbnail" src="Images/RealisticHouse.jpg" alt="Thumbnail">
+                <div class="info">
+                    <div>
+                        <img class="channel-icon" src="Images/Sunset.jpg" alt="Channel">
+                    </div>
+                    <div class="details">
+                      <p class="Title">Lorem ipsum, dolor sit amet consectetur.</p>
+                      <p class="channel">Channel</p>
+                      <div class="meta-data">
+                          <span class="veiws">12k views</span>
+                          <span>12 days ago</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <img class="thumbnail" src="Images/RealisticHouse.jpg" alt="Thumbnail">
+                <div class="info">
+                    <div>
+                        <img class="channel-icon" src="Images/Sunset.jpg" alt="Channel">
+                    </div>
+                    <div class="details">
+                      <p class="Title">Lorem ipsum, dolor sit amet consectetur.</p>
+                      <p class="channel">Channel</p>
+                      <div class="meta-data">
+                          <span class="veiws">12k views</span>
+                          <span>12 days ago</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <img class="thumbnail" src="Images/RealisticHouse.jpg" alt="Thumbnail">
+                <div class="info">
+                    <div>
+                        <img class="channel-icon" src="Images/Sunset.jpg" alt="Channel">
+                    </div>
+                    <div class="details">
+                      <p class="Title">Lorem ipsum, dolor sit amet consectetur.</p>
+                      <p class="channel">Channel</p>
+                      <div class="meta-data">
+                          <span class="veiws">12k views</span>
+                          <span>12 days ago</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <img class="thumbnail" src="Images/RealisticHouse.jpg" alt="Thumbnail">
+                <div class="info">
+                    <div>
+                        <img class="channel-icon" src="Images/Sunset.jpg" alt="Channel">
+                    </div>
+                    <div class="details">
+                      <p class="Title">Lorem ipsum, dolor sit amet consectetur.</p>
+                      <p class="channel">Channel</p>
+                      <div class="meta-data">
+                          <span class="veiws">12k views</span>
+                          <span>12 days ago</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <img class="thumbnail" src="Images/RealisticHouse.jpg" alt="Thumbnail">
+                <div class="info">
+                    <div>
+                        <img class="channel-icon" src="Images/Sunset.jpg" alt="Channel">
+                    </div>
+                    <div class="details">
+                      <p class="Title">Lorem ipsum, dolor sit amet consectetur.</p>
+                      <p class="channel">Channel</p>
+                      <div class="meta-data">
+                          <span class="veiws">12k views</span>
+                          <span>12 days ago</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <img class="thumbnail" src="Images/RealisticHouse.jpg" alt="Thumbnail">
+                <div class="info">
+                    <div>
+                        <img class="channel-icon" src="Images/Sunset.jpg" alt="Channel">
+                    </div>
+                    <div class="details">
+                      <p class="Title">Lorem ipsum, dolor sit amet consectetur.</p>
+                      <p class="channel">Channel</p>
+                      <div class="meta-data">
+                          <span class="veiws">12k views</span>
+                          <span>12 days ago</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="video">
+                <img class="thumbnail" src="Images/RealisticHouse.jpg" alt="Thumbnail">
+                <div class="info">
+                    <div>
+                        <img class="channel-icon" src="Images/Sunset.jpg" alt="Channel">
+                    </div>
+                    <div class="details">
+                      <p class="Title">Lorem ipsum, dolor sit amet consectetur.</p>
+                      <p class="channel">Channel</p>
+                      <div class="meta-data">
+                          <span class="veiws">12k views</span>
+                          <span>12 days ago</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <img class="thumbnail" src="Images/RealisticHouse.jpg" alt="Thumbnail">
+                <div class="info">
+                    <div>
+                        <img class="channel-icon" src="Images/Sunset.jpg" alt="Channel">
+                    </div>
+                    <div class="details">
+                      <p class="Title">Lorem ipsum, dolor sit amet consectetur.</p>
+                      <p class="channel">Channel</p>
+                      <div class="meta-data">
+                          <span class="veiws">12k views</span>
+                          <span>12 days ago</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <img class="thumbnail" src="Images/RealisticHouse.jpg" alt="Thumbnail">
+                <div class="info">
+                    <div>
+                        <img class="channel-icon" src="Images/Sunset.jpg" alt="Channel">
+                    </div>
+                    <div class="details">
+                      <p class="Title">Lorem ipsum, dolor sit amet consectetur.</p>
+                      <p class="channel">Channel</p>
+                      <div class="meta-data">
+                          <span class="veiws">12k views</span>
+                          <span>12 days ago</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <script src="https://kit.fontawesome.com/6d2ea823d0.js"></script>
 </body>
 </html>

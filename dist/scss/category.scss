@@ -1,0 +1,41 @@
+// global styling
+
+.category,
+.All-category {
+    margin: 5px;
+    transition: all 0.8s ease 0s;
+}
+
+.category {
+  background: lightgrey;
+  color: black;
+  padding: 10px;
+  width: minmax();
+  border-radius: 30px;
+  border: 1px solid black;
+
+  &:hover {
+    background-color: darkgray;
+}
+}
+
+.category:first-child {
+    background-color: black;
+    color: white;
+    @extend .category;
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.categories div:nth-child(16) {
+    opacity: 0.5;
+}
+
+.more-arrow {
+    margin-left: 50px;
+    color: grey;
+}
